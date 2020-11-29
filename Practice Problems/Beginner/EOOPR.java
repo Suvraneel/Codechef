@@ -19,7 +19,7 @@ public class Main {
 
     sc.close();
   }
-
+  
   static int step(int x, int y) {
     if (x < y) {
       if ((y - x) % 2 == 0) {
