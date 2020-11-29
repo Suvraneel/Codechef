@@ -5,8 +5,8 @@ int main() {
     int t, x, y, min;
 	scanf("%d", &t);
 	while (t--){
-	    scanf("%d %d", &x, &y);
-    printf("%d\n", step(x,y));
+		scanf("%d %d", &x, &y);
+		printf("%d\n", step(x,y));
 	}
 	return 0;   
 }
